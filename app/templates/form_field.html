@@ -1,0 +1,9 @@
+{% macro render_field(field) %}
+    <p>
+        {{ field.label }} <br>
+        {{ field() }}
+        {% for error in field.errors %}
+            <span class="error">{{ error }}</span>
+        {% endfor %}
+    </p>
+{% endmacro %}

@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1170px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__button {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.account{
+    display: flex;
+}
+.home{
+    padding: 5px;
+}
+
+
+.header__button a {
+    text-decoration: none;
+    font-size: 24px;
+    padding: 5px 30px;
+    color: #443020;
+    font-weight: bold;
+    font-family: 'Cambay', sans-serif;
+
+}
+
+.header__button a:hover {
+    background-color: #f1d881;
+}
+
+.header {
+    background-color: #d5921a;
+    line-height: 70px;
+}

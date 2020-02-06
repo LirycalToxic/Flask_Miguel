@@ -1,9 +1,10 @@
-from app import db
+from app import db, login
 from datetime import datetime
 from werkzeug.security import generate_password_hash, check_password_hash
+from flask_login import UserMixin
 
 
-class User(db.Model):
+class User(db.Model, UserMixin):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(64), nullable=False, index=True, )
     email = db.Column(db.String(120), nullable=False, index=True, unique=True)
@@ -29,3 +30,8 @@ class Post(db.Model):
 
     def __repr__(self):
         return 'Post {}'.format(self.id)
+
+
+@login.user_loader
+def load_user(id):
+    return User.query.get(int(id))

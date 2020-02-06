@@ -1,16 +1,22 @@
 {% extends 'base.html' %}
 {% block head %}
-    <title>Hello {{ name['username'] }}</title>
+    <title>Hello {{ title }} </title>
 {% endblock %}
 {% block body %}
-    <h1>Hello {{ name['username'] }}</h1>
+    <h1>Hello {{ current_user.username }}</h1>
     {% with messages = get_flashed_messages() %}
-    {% if messages %}
-        <ul>
-            {% for message in messages %}
-            <li>{{ message }}</li>
-            {% endfor %}
-        </ul>
-    {% endif %}
+        {% if messages %}
+            <ul>
+                {% for message in messages %}
+                    <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
     {% endwith %}
+    {% for post in posts %}
+    <div class="post">
+        <h3>{{ post.author.username }}</h3>
+        <p>{{ post.body}}</p>
+    </div>
+    {% endfor %}
 {% endblock %}
