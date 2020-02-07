@@ -105,16 +105,24 @@
       <Position>5</Position>
       <DataType>TEXT|0s</DataType>
     </column>
-    <index id="30" parent="9" name="ix_user_email">
+    <column id="30" parent="9" name="about_me">
+      <Position>6</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="31" parent="9" name="last_seen">
+      <Position>7</Position>
+      <DataType>DATETIME|0s</DataType>
+    </column>
+    <index id="32" parent="9" name="ix_user_email">
       <ColNames>email</ColNames>
       <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
-    <index id="31" parent="9" name="ix_user_username">
+    <index id="33" parent="9" name="ix_user_username">
       <ColNames>username</ColNames>
       <ColumnCollations></ColumnCollations>
     </index>
-    <key id="32" parent="9">
+    <key id="34" parent="9">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>

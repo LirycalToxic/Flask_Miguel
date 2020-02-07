@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+}
 
 .container {
     max-width: 1170px;
@@ -42,4 +45,9 @@
 .header {
     background-color: #d5921a;
     line-height: 70px;
+}
+.edit_profile{
+    display: block;
+    font-size: 24px;
+    text-align: center;
 }

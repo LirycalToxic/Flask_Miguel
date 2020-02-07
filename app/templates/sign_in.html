@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% import "form_field.html" as field %}
+{% from "form_field.html" import render_field as field %}
 
 {% block head %}
     <title>{{ title }}</title>
@@ -11,13 +11,13 @@
         <form action="/sign_in" method="post" novalidate>
             {{ form.hidden_tag() }}
 
-            {{ field.render_field(form.username) }}
+            {{ field(form.username) }}
 
-            {{ field.render_field(form.email) }}
+            {{ field(form.email) }}
 
-            {{ field.render_field(form.password) }}
+            {{ field(form.password) }}
 
-            {{ field.render_field(form.password2) }}
+            {{ field(form.password2) }}
 
             <p>{{ form.submit() }}</p>
 
