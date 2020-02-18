@@ -38,3 +38,13 @@ class EditProfileForm(FlaskForm):
                              validators=[Length(min=0, max=140, message='Text must be less then 140 symbols')],
                              render_kw={"cols": 50, 'rows': 4})
     submit = SubmitField('Commit changes')
+
+    def __init__(self, original_name, *args, **kwargs):
+        super(EditProfileForm, self).__init__(*args, **kwargs)
+        self.original_name = original_name
+
+    def validate_username(self, username):
+        if username.data != self.original_name:
+            user = User.query.filter_by(username=self.username.data).first()
+            if user is not None:
+                raise ValidationError('Please use a different username.')

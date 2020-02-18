@@ -7,12 +7,27 @@
     <table>
         <tr valign="top">
             <td><img src="{{ user.avatar(64) }}">
+                {% if user == current_user %}
                 <a href="/edit_profile" class="edit_profile">Edit</a>
+                {% elif not current_user.is_following(user) %}
+                <div class="follow">
+                    <a  id="button_follow" href="{{ url_for('follow', username=user.username) }}">Follow</a>
+                </div>
+                {% else %}
+                <div class="unfollow">
+                    <a id="button_unfollow" href="{{ url_for('unfollow', username=user.username) }}">Unfollow</a>
+                </div>
+                {% endif %}
             </td>
             <td><h1>User: {{ user.username }}</h1>
 
                 {% if user.about_me %}<p>{{ user.about_me }}</p> {% endif %}
                 {% if user.last_seen %}<p> Last seen: {{ user.last_seen }}</p> {% endif %}
+
+                <div class="followers">
+                    {{ user.followers.count() }} followers, {{ user.followed.count() }} followed
+                </div>
+
             </td>
         </tr>
     </table>
