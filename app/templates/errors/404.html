@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block head %}
+    <title>File not found</title>
+{% endblock %}
+
+{% block body %}
+    <h1>File not found</h1>
+    <div><a href="{{ url_for('index') }}">Back</a></div>
+{% endblock %}
