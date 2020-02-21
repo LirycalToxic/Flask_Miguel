@@ -3,8 +3,12 @@
     margin: 0;
     padding: 0;
 }
-a{
+
+a {
     text-decoration: none;
+}
+a:visited{
+   color: transparent;
 }
 
 .container {
@@ -20,10 +24,12 @@ a{
     flex-direction: row;
     flex-wrap: nowrap;
 }
-.account{
+
+.account {
     display: flex;
 }
-.home{
+
+.home {
     padding: 5px;
 }
 
@@ -46,8 +52,68 @@ a{
     background-color: #d5921a;
     line-height: 70px;
 }
-.edit_profile{
+
+.edit_profile {
     display: block;
     font-size: 24px;
     text-align: center;
+}
+
+.post_show__label {
+    font-size: 32px;
+    padding: 5px;
+    font-family: fantasy;
+    border: 2px #f45b31 solid;
+    background-image: url("../img/bg-label.png");
+    color: #000000;
+}
+
+.post_show__label > a:hover {
+    color: antiquewhite;
+}
+
+.post_show {
+    border: 3px sandybrown solid;
+    margin: 10px 0;
+    padding: 10px;
+    background-image: url("../img/bg.png");
+}
+
+.post_show__text {
+    font-size: 30px;
+    margin: 4px 10px 10px;
+    font-family: Ebrima, cursive;
+}
+
+.post_form {
+    border: #f45b31 5px dashed;
+    padding: 20px;
+}
+
+.post_form__label {
+    font-size: 32px;
+}
+
+.post_form_submit {
+    text-align: right;
+}
+
+.post_form_submit > input {
+    padding: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+}
+
+.post_form_submit > input:hover {
+    color: darkslateblue;
+    background-color: white;
+}
+
+.post_form_textarea > textarea {
+    border: black 3px;
+    padding: 3px;
+    font-size: 16px;
+    width: 100%;
 }

@@ -1,5 +1,5 @@
 from app import app, redirect, render_template, url_for, flash, db
-from app.form import LoginForm, RegistrationForm, EditProfileForm
+from app.form import LoginForm, RegistrationForm, EditProfileForm, PostForm
 from flask_login import current_user, login_user, logout_user, login_required
 from app.models import User, Post
 from flask import request
@@ -7,13 +7,46 @@ from werkzeug.urls import url_parse
 from datetime import datetime
 
 
-@app.route('/')
-@app.route('/index')
+@app.route('/', methods=['GET', 'POST'])
+@app.route('/index', methods=['GET', 'POST'])
 @login_required
 def index():
-    posts = Post.query.all()
+    page = request.args.get('page', 1, type=int)
+    posts = current_user.followed_posts().paginate(page, app.config['POST_PER_PAGE'], False)
+    next_url = url_for('index', page=posts.next_num) if posts.has_next else None
+    prev_url = url_for('index', page=posts.prev_num) if posts.has_prev else None
+    form = PostForm()
+    if form.validate_on_submit():
+        post = Post(body=form.post.data, author=current_user)
+        db.session.add(post)
+        db.session.commit()
+        flash("You  post new message!")
+        return redirect(url_for('index'))
     title = "main"
-    return render_template('index.html', posts=posts, title=title)
+    return render_template('index.html', posts=posts.items, form=form, title=title, next_url=next_url,
+                           prev_url=prev_url)
+
+
+@app.route('/explore')
+def explore():
+    page = request.args.get('page', 1, type=int)
+    posts = Post.query.order_by(Post.timestamp.desc()).paginate(page, app.config['POST_PER_PAGE'], False)
+    next_url = url_for('explore', page=posts.next_num) if posts.has_next else None
+    prev_url = url_for('explore', page=posts.prev_num) if posts.has_prev else None
+    return render_template('index.html', title="Explore", posts=posts.items, next_url=next_url, prev_url=prev_url)
+
+
+@app.route('/user/<username>')
+@login_required
+def user(username):
+    page = request.args.get('page', 1, type=int)
+    user = User.query.filter_by(username=username).first_or_404()
+    posts = Post.query.filter_by(author=user).order_by(Post.timestamp.desc()).paginate(page,
+                                                                                       app.config['POST_PER_PAGE'],
+                                                                                       False)
+    next_url = url_for('user', username=user.username, page=posts.next_num) if posts.has_next else None
+    prev_url = url_for('user', username=user.username, page=posts.prev_num) if posts.has_prev else None
+    return render_template('user.html', user=user, posts=posts.items, next_url=next_url, prev_url=prev_url)
 
 
 @app.route('/sign_in', methods=['GET', 'POST'])
@@ -51,17 +84,6 @@ def login():
         return redirect(next_page)
 
     return render_template('login.html', title='Sign in', form=form)
-
-
-@app.route('/user/<username>')
-@login_required
-def user(username):
-    user = User.query.filter_by(username=username).first_or_404()
-    posts = [
-        {'author': user, 'body': 'Test 1'},
-        {'author': user, 'body': 'Test 2'}
-    ]
-    return render_template('user.html', user=user, posts=posts)
 
 
 @app.route('/edit_profile', methods=['GET', 'POST'])

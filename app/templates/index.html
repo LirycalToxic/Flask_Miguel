@@ -4,19 +4,39 @@
 {% endblock %}
 {% block body %}
     <h1>Hello {{ current_user.username }}</h1>
-    {% with messages = get_flashed_messages() %}
-        {% if messages %}
-            <ul>
-                {% for message in messages %}
-                    <li>{{ message }}</li>
+    {#    {% with messages = get_flashed_messages() %}#}
+    {#        {% if messages %}#}
+    {#            <ul>#}
+    {#                {% for message in messages %}#}
+    {#                    <li>{{ message }}</li>#}
+    {#                {% endfor %}#}
+    {#            </ul>#}
+    {#        {% endif %}#}
+    {#    {% endwith %}#}
+    {% if form %}
+        <form action="" method="post">
+            {{ form.hidden_tag() }}
+            <div class="post_form">
+                <div class="post_form__label">    {{ form.post.label }}</div>
+                <br>
+                <div class="post_form_textarea"> {{ form.post(cols=32,row=4) }}</div>
+                {% for error in form.post.errors %}
+                    <span style="color: red">[{{ error }}] </span>
                 {% endfor %}
-            </ul>
-        {% endif %}
-    {% endwith %}
+                <div class="post_form_submit">{{ form.submit() }}</div>
+            </div>
+        </form>
+    {% endif %}
     {% for post in posts %}
-        <div class="post">
-            <h3>{{ post.author.username }}</h3>
-            <p>{{ post.body }}</p>
+        <div class="post_show">
+            {% include '_post.html' %}
         </div>
     {% endfor %}
+    {% if prev_url %}
+        <a href="{{ prev_url }}" class="next">Previous</a>
+    {% endif %}
+    {% if next_url %}
+        <a href="{{ next_url }}" class="next">Next</a>
+    {% endif %}
+
 {% endblock %}

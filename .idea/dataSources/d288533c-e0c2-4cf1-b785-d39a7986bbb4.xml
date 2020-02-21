@@ -53,7 +53,6 @@
     </column>
     <index id="18" parent="7" name="ix_post_timestamp">
       <ColNames>timestamp</ColNames>
-      <ColumnCollations></ColumnCollations>
     </index>
     <key id="19" parent="7">
       <ColNames>id</ColNames>
@@ -113,12 +112,10 @@
     </column>
     <index id="32" parent="9" name="ix_user_username">
       <ColNames>username</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <index id="33" parent="9" name="ix_user_email">
       <ColNames>email</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="34" parent="9">

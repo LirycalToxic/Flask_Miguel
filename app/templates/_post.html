@@ -1,7 +1,12 @@
 <table>
     <tr valign="top">
-        <td><img src="{{ user.avatar(36) }}"></td>
-        <td><h2>{{ post.author.username }}</h2>
-            <p> {{ post.body }}</p></td>
+        <td><img src="{{ post.author.avatar(36) }}"></td>
+        <div class="post_show__label">
+            <a href="{{ url_for('user', username=post.author.username) }}">{{ post.author.username }}</a>
+        </div>
+        <td>
+
+            <p class="post_show__text">{{ post.body }}</p>
+        </td>
     </tr>
 </table>
