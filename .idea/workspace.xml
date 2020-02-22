@@ -2,19 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78b358c3-81c5-4281-9c04-66d34a0ed4dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/static/img/bg-label.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d288533c-e0c2-4cf1-b785-d39a7986bbb4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d288533c-e0c2-4cf1-b785-d39a7986bbb4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/email/reset_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/email/reset_password.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/reset_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/reset_password_request.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/Flask_Mail-0.9.1-py3.8.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/Flask_Mail-0.9.1-py3.8.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/Flask_Mail-0.9.1-py3.8.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/Flask_Mail-0.9.1-py3.8.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/Flask_Mail-0.9.1-py3.8.egg-info/not-zip-safe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/Flask_Mail-0.9.1-py3.8.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/Flask_Mail-0.9.1-py3.8.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/PyJWT-1.7.1.dist-info/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/PyJWT-1.7.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/PyJWT-1.7.1.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/PyJWT-1.7.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/PyJWT-1.7.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/PyJWT-1.7.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/PyJWT-1.7.1.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/PyJWT-1.7.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/blinker-1.4-py3.8.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/blinker-1.4-py3.8.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/blinker-1.4-py3.8.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/blinker-1.4-py3.8.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/blinker-1.4-py3.8.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/blinker/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/blinker/_saferef.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/blinker/_utilities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/blinker/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/flask_mail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/jwt/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/jwt/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/jwt/algorithms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/jwt/api_jws.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/jwt/api_jwt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/jwt/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/jwt/contrib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/jwt/contrib/algorithms/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/jwt/contrib/algorithms/py_ecdsa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/jwt/contrib/algorithms/pycrypto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/jwt/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/jwt/help.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/jwt/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Scripts/pyjwt.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/miguel.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/miguel.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,8 +107,8 @@
       <list>
         <option value="Flask Main" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -102,7 +142,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -235,7 +275,17 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:app" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:app" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@5b5eb021" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -272,7 +322,9 @@
       <workItem from="1582033227029" duration="9207000" />
       <workItem from="1582122027052" duration="2299000" />
       <workItem from="1582216584466" duration="3262000" />
-      <workItem from="1582296322687" duration="9343000" />
+      <workItem from="1582296322687" duration="10841000" />
+      <workItem from="1582319946965" duration="1784000" />
+      <workItem from="1582360611265" duration="7124000" />
     </task>
     <servers />
   </component>
@@ -295,22 +347,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581367017371" />
-    <state width="1877" height="117" key="GridCell.Tab.0.bottom" timestamp="1582311100558">
+    <state width="1877" height="380" key="GridCell.Tab.0.bottom" timestamp="1582363308736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="117" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582311100558" />
-    <state width="1877" height="117" key="GridCell.Tab.0.center" timestamp="1582311100557">
+    <state width="1877" height="380" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582363308736" />
+    <state width="1877" height="380" key="GridCell.Tab.0.center" timestamp="1582363308736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="117" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582311100557" />
-    <state width="1877" height="117" key="GridCell.Tab.0.left" timestamp="1582311100557">
+    <state width="1877" height="380" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582363308736" />
+    <state width="1877" height="380" key="GridCell.Tab.0.left" timestamp="1582363308736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="117" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582311100557" />
-    <state width="1877" height="117" key="GridCell.Tab.0.right" timestamp="1582311100557">
+    <state width="1877" height="380" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582363308736" />
+    <state width="1877" height="380" key="GridCell.Tab.0.right" timestamp="1582363308736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="117" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582311100557" />
+    <state width="1877" height="380" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582363308736" />
     <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1581960026220">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -331,10 +383,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1580587424744" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1582034357155">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1582321446835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582034357155" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582321446835" />
     <state x="857" y="402" width="326" height="240" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1582052105251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -343,21 +395,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="161" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581108140259" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1582296438588">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1582360679187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582296438588" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582051575618">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582360679187" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582367567952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582051575618" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582367567952" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Miguel$context.coverage" NAME="context Coverage Results" MODIFIED="1580755558268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/Migel$Migel.coverage" NAME="Migel Coverage Results" MODIFIED="1580567917671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Miguel$test.coverage" NAME="test Coverage Results" MODIFIED="1582139507823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Miguel$test.coverage" NAME="test Coverage Results" MODIFIED="1582361598766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Migel$test.coverage" NAME="test Coverage Results" MODIFIED="1580571908569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Miguel$Migel.coverage" NAME="Migel Coverage Results" MODIFIED="1582301152515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Miguel$Migel.coverage" NAME="Migel Coverage Results" MODIFIED="1582363308723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Miguel$Unittests_for_tests_UserModelCase_test_follow_posts.coverage" NAME="Unittests for tests.UserModelCase.test_follow_posts Coverage Results" MODIFIED="1582049353982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/Miguel$models.coverage" NAME="models Coverage Results" MODIFIED="1582049218182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
