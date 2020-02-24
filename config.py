@@ -12,3 +12,5 @@ MAIL_USERNAME = os.environ.get('MAIL_USERNAME') or "xaccaope2@gmail.com"
 MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD') or "naruto12345654321"
 ADMINS = ['xaccaope2@gmail.com']
 POST_PER_PAGE = 3
+
+LANGUAGE = ['en', 'es', 'ru']

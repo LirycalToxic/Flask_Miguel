@@ -1,8 +1,13 @@
-from app import mail
-from flask_mail import Message
-from app import app
-with app.app_context():
-    msg = Message('test subject', sender=app.config['ADMINS'][0], recipients=['xaccaope@gmail.com'])
-    msg.body = 'text body'
-    msg.html = '<h1>HTML text</h1>'
-    mail.send(msg)
+import click
+from flask import Flask
+from flask.cli import AppGroup
+
+app = Flask(__name__)
+user_cli = AppGroup('user')
+
+@user_cli.command('create')
+@click.argument('name')
+def create_user(name):
+    """ok"""
+
+app.cli.add_command(user_cli)

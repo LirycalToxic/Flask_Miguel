@@ -5,6 +5,9 @@
     {% block head %} {% endblock %}
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link href="https://fonts.googleapis.com/css?family=Cambay:700&display=swap" rel="stylesheet">
+    {{ moment.include_jquery() }}
+    {{ moment.include_moment() }}
+    {{ moment.lang(g.locale) }}
 </head>
 <body>
 <header>
@@ -30,7 +33,17 @@
     <div class="container">
         {% block body %} {% endblock %}
     </div>
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <ul>
+                    {% for message in messages %}
+                        <li>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
 </section>
+{#<script  type="application/javascript" src="{{ url_for('static', filename="js/moment.js") }}"></script>#}
 
 </body>
 </html>

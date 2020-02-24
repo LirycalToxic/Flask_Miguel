@@ -4,15 +4,7 @@
 {% endblock %}
 {% block body %}
     <h1>Hello {{ current_user.username }}</h1>
-    {#    {% with messages = get_flashed_messages() %}#}
-    {#        {% if messages %}#}
-    {#            <ul>#}
-    {#                {% for message in messages %}#}
-    {#                    <li>{{ message }}</li>#}
-    {#                {% endfor %}#}
-    {#            </ul>#}
-    {#        {% endif %}#}
-    {#    {% endwith %}#}
+
     {% if form %}
         <form action="" method="post">
             {{ form.hidden_tag() }}
