@@ -11,11 +11,11 @@
                     <a href="/edit_profile" class="edit_profile">Edit</a>
                 {% elif not current_user.is_following(user) %}
                     <div class="follow">
-                        <a id="button_follow" href="{{ url_for('follow', username=user.username) }}">Follow</a>
+                        <a id="button_follow" href="{{ url_for('main.follow', username=user.username) }}">Follow</a>
                     </div>
                 {% else %}
                     <div class="unfollow">
-                        <a id="button_unfollow" href="{{ url_for('unfollow', username=user.username) }}">Unfollow</a>
+                        <a id="button_unfollow" href="{{ url_for('main.unfollow', username=user.username) }}">Unfollow</a>
                     </div>
                 {% endif %}
             </td>

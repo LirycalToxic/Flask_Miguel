@@ -2,10 +2,13 @@
     <tr valign="top">
         <td><img src="{{ post.author.avatar(36) }}"></td>
         <div class="post_show__label">
-            <a href="{{ url_for('user', username=post.author.username) }}">{{ post.author.username }}</a>
+            <a href="{{ url_for('main.user', username=post.author.username) }}">{{ post.author.username }}</a>
         </div>
         <td>
             said {{ moment(post.timestamp).fromNow() }}
+            {%  if post.language and post.language  != g.locale %}
+            <a href="#" class="translate">{{ _('Translate') }}</a>
+            {% endif %}
             <p class="post_show__text">{{ post.body }}</p>
         </td>
     </tr>

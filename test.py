@@ -1,13 +1,5 @@
-import click
-from flask import Flask
-from flask.cli import AppGroup
+import os
 
-app = Flask(__name__)
-user_cli = AppGroup('user')
+basedir = os.path.abspath(os.path.dirname(__file__))
 
-@user_cli.command('create')
-@click.argument('name')
-def create_user(name):
-    """ok"""
-
-app.cli.add_command(user_cli)
+print(os.path.dirname(__file__), basedir)
