@@ -2,260 +2,84 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78b358c3-81c5-4281-9c04-66d34a0ed4dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/auth/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/auth/email.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/auth/form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/auth/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/errors/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/errors/handlers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/main/form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/translate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/versions/3b4a62895015_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/certifi-2019.11.28.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/certifi-2019.11.28.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/certifi-2019.11.28.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/certifi-2019.11.28.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/certifi-2019.11.28.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/certifi-2019.11.28.dist-info/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/certifi-2019.11.28.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/certifi/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/certifi/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/certifi/cacert.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/certifi/core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet-3.0.4.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet-3.0.4.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet-3.0.4.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet-3.0.4.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet-3.0.4.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet-3.0.4.dist-info/entry_points.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet-3.0.4.dist-info/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet-3.0.4.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/big5freq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/big5prober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/chardistribution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/charsetgroupprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/charsetprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/cli/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/cli/chardetect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/codingstatemachine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/cp949prober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/enums.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/escprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/escsm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/eucjpprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/euckrfreq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/euckrprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/euctwfreq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/euctwprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/gb2312freq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/gb2312prober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/hebrewprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/jisfreq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/jpcntx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/langbulgarianmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/langcyrillicmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/langgreekmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/langhebrewmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/langhungarianmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/langthaimodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/langturkishmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/latin1prober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/mbcharsetprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/mbcsgroupprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/mbcssm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/sbcharsetprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/sbcsgroupprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/sjisprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/universaldetector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/utf8prober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/chardet/version.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/console_mode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/af.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/ar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/az.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/bg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/ca.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/ceb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/cs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/cy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/da.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/de.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/en.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/eo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/es.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/et.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/eu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/fa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/fi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/fr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/ha.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/haw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/hi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/hr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/hu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/id.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/is.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/it.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/kk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/ky.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/la.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/lt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/lv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/mk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/mn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/nb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/ne.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/nl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/nr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/nso.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/pl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/ps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/pt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/pt_br.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/pt_pt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/ro.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/ru.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/sk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/sl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/so.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/sq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/sr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/ss.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/st.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/sv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/sw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/tl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/tlh.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/tn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/tr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/ts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/uk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/ur.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/uz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/ve.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/vi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/xh.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language/data/models/zu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language_spirit-0.5.3-py3.8.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language_spirit-0.5.3-py3.8.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language_spirit-0.5.3-py3.8.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language_spirit-0.5.3-py3.8.egg-info/installed-files.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language_spirit-0.5.3-py3.8.egg-info/not-zip-safe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/guess_language_spirit-0.5.3-py3.8.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/idna-2.9.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/idna-2.9.dist-info/LICENSE.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/idna-2.9.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/idna-2.9.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/idna-2.9.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/idna-2.9.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/idna/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/idna/codec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/idna/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/idna/core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/idna/idnadata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/idna/intranges.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/idna/package_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/idna/uts46data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/requests-2.23.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/requests-2.23.0.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/requests-2.23.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/requests-2.23.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/requests-2.23.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/requests-2.23.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/requests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/requests/__version__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/requests/_internal_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/requests/adapters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/requests/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/requests/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/requests/certs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/requests/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/requests/cookies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/requests/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/requests/help.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/requests/hooks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/requests/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/requests/packages.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/requests/sessions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/requests/status_codes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/requests/structures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/requests/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3-1.25.8.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3-1.25.8.dist-info/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3-1.25.8.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3-1.25.8.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3-1.25.8.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3-1.25.8.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/_collections.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/connectionpool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/contrib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/contrib/_appengine_environ.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/contrib/_securetransport/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/contrib/_securetransport/bindings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/contrib/_securetransport/low_level.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/contrib/appengine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/contrib/ntlmpool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/contrib/pyopenssl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/contrib/securetransport.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/contrib/socks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/fields.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/filepost.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/packages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/packages/backports/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/packages/backports/makefile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/packages/six.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/packages/ssl_match_hostname/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/packages/ssl_match_hostname/_implementation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/poolmanager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/response.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/util/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/util/connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/util/queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/util/request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/util/response.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/util/retry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/util/ssl_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/util/timeout.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/util/url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/urllib3/util/wait.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Scripts/chardetect.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch-7.5.1.dist-info/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch-7.5.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch-7.5.1.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch-7.5.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch-7.5.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch-7.5.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch-7.5.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/cat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/ccr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/cluster.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/data_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/deprecation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/enrich.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/ilm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/indices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/ingest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/license.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/migration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/ml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/monitoring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/nodes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/remote.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/rollup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/security.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/slm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/snapshot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/sql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/ssl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/transform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/watcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/xpack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/connection/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/connection/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/connection/http_requests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/connection/http_urllib3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/connection/pooling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/connection_pool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/helpers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/helpers/actions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/helpers/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/helpers/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/transport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/d288533c-e0c2-4cf1-b785-d39a7986bbb4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d288533c-e0c2-4cf1-b785-d39a7986bbb4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/auth/email.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/email.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/auth/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/auth/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/cli.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/context.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/email.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/errors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/form.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/logging.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/errors/handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/errors/handlers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main/form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/_post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/errors/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/errors/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/errors/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/errors/500.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/auth/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/reset_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/auth/reset_password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/reset_password_request.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/auth/reset_password_request.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/sign_in.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/auth/sign_in.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/translate.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/translate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/miguel.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/miguel.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/2038cf20d836_.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/versions/2038cf20d836_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/354f7e091cce_followers.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/versions/354f7e091cce_followers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/3b4a62895015_.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/versions/3b4a62895015_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/3db8be13797d_.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/versions/3db8be13797d_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/e738cdd3b7c9_.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/versions/e738cdd3b7c9_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/ee95fa9e8bed_content.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/versions/ee95fa9e8bed_content.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,9 +131,9 @@
       <list>
         <option value="Flask Main" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -346,19 +170,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\xacca\PycharmProjects\Migel\app" />
+      <recent name="C:\Users\xacca\PycharmProjects\Migel\app\main" />
+      <recent name="C:\Users\xacca\PycharmProjects\Migel\app\templates\auth" />
+      <recent name="C:\Users\xacca\PycharmProjects\Migel\app\auth" />
+      <recent name="C:\Users\xacca\PycharmProjects\Migel\app\static\js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\xacca\PycharmProjects\Migel\app" />
       <recent name="C:\Users\xacca\PycharmProjects\Migel\app\tamplates" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\xacca\PycharmProjects\Migel\app\main" />
-      <recent name="C:\Users\xacca\PycharmProjects\Migel\app\templates\auth" />
-      <recent name="C:\Users\xacca\PycharmProjects\Migel\app\auth" />
-      <recent name="C:\Users\xacca\PycharmProjects\Migel\app" />
-      <recent name="C:\Users\xacca\PycharmProjects\Migel\app\static\js" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Flask server.Migel">
     <configuration name="context" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Miguel" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -441,6 +265,21 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="buildOnly" value="true" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for tests.UserModelCase.test_follow_posts" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Miguel" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -457,6 +296,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Docker.Dockerfile" />
       <item itemvalue="Flask server.Migel" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.context" />
@@ -465,8 +305,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for tests.UserModelCase.test_follow_posts" />
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Python.models" />
+        <item itemvalue="Python tests.Unittests for tests.UserModelCase.test_follow_posts" />
         <item itemvalue="Python.context" />
       </list>
     </recent_temporary>
@@ -523,7 +364,14 @@
       <workItem from="1583008480582" duration="599000" />
       <workItem from="1583179969273" duration="613000" />
       <workItem from="1583347498064" duration="4854000" />
-      <workItem from="1583586340038" duration="12764000" />
+      <workItem from="1583586340038" duration="16217000" />
+      <workItem from="1583681912438" duration="3653000" />
+      <workItem from="1583781583473" duration="4848000" />
+      <workItem from="1583837412596" duration="3728000" />
+      <workItem from="1583846612778" duration="19625000" />
+      <workItem from="1583948366956" duration="2307000" />
+      <workItem from="1584130267751" duration="3502000" />
+      <workItem from="1584201548467" duration="648000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 13 Babel + Cli(doesnt work)">
       <created>1582577236829</created>
@@ -532,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582577236830</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Chapter  15 Refactoring">
+      <created>1583611327384</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583611327384</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,45 +399,62 @@
       <path value="$PROJECT_DIR$/s/microblog" />
     </ignored-roots>
     <MESSAGE value="Chapter 13 Babel + Cli(doesnt work)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 13 Babel + Cli(doesnt work)" />
+    <MESSAGE value="Chapter  15 Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter  15 Refactoring" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Docker" timestamp="1583866610119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Docker/0.0.1920.1040@0.0.1920.1040" timestamp="1583866610119" />
+    <state x="679" y="73" key="#Dockerfile" timestamp="1583851767018">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="73" key="#Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1583851767018" />
     <state x="552" y="178" key="#Log_Highlighting_(ideolog)" timestamp="1581193738764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Log_Highlighting_(ideolog)/0.0.1920.1040@0.0.1920.1040" timestamp="1581193738764" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582575679995">
+    <state x="552" y="178" key="#Path_mapping" timestamp="1583866571902">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582575679995" />
-    <state x="585" y="112" key="CommitChangelistDialog2" timestamp="1582577220523">
+    <state x="552" y="178" key="#Path_mapping/0.0.1920.1040@0.0.1920.1040" timestamp="1583866571902" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583949098204">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582577220523" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583949098204" />
+    <state x="723" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583850317907">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="723" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583850317907" />
+    <state x="585" y="112" key="CommitChangelistDialog2" timestamp="1583611322949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583611322949" />
     <state x="694" y="281" key="EnvironmentVariablesDialog" timestamp="1582575618679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="694" y="281" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582575618679" />
-    <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1582545494976">
+    <state x="345" y="234" key="FileChooserDialogImpl" timestamp="1583949312310">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582545494976" />
-    <state width="1877" height="227" key="GridCell.Tab.0.bottom" timestamp="1583611282117">
+    <state x="345" y="234" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583949312310" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1583850015081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583611282117" />
-    <state width="1877" height="227" key="GridCell.Tab.0.center" timestamp="1583611282117">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583850015081" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1583850015081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="227" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583611282117" />
-    <state width="1877" height="227" key="GridCell.Tab.0.left" timestamp="1583611282117">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583850015081" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1583850015081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="227" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583611282117" />
-    <state width="1877" height="227" key="GridCell.Tab.0.right" timestamp="1583611282117">
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583850015081" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1583850015081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="227" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583611282117" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583850015081" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1582397913089">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -603,10 +475,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1580587424744" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1583357751026">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1583850440140">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583357751026" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583850440140" />
     <state x="857" y="402" width="326" height="240" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1582052105251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -615,10 +487,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="161" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581108140259" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1583586377251">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1584201586353">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583586377251" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584201586353" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583354904742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -629,8 +501,8 @@
     <SUITE FILE_PATH="coverage/Migel$Migel.coverage" NAME="Migel Coverage Results" MODIFIED="1580567917671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Miguel$test.coverage" NAME="test Coverage Results" MODIFIED="1583610997127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Migel$test.coverage" NAME="test Coverage Results" MODIFIED="1580571908569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Miguel$Migel.coverage" NAME="Migel Coverage Results" MODIFIED="1583601141614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Miguel$Migel.coverage" NAME="Migel Coverage Results" MODIFIED="1583849193847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Miguel$Unittests_for_tests_UserModelCase_test_follow_posts.coverage" NAME="Unittests for tests.UserModelCase.test_follow_posts Coverage Results" MODIFIED="1582049353982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
-    <SUITE FILE_PATH="coverage/Miguel$models.coverage" NAME="models Coverage Results" MODIFIED="1582049218182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/Miguel$models.coverage" NAME="models Coverage Results" MODIFIED="1583695709580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
 </project>

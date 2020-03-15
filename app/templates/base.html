@@ -21,6 +21,13 @@
                     <a href="{{ url_for('auth.sign_in') }}" class="sign_in">Sign in</a>
                     <a href="{{ url_for('auth.login') }}" class="login">Login</a>
                 {% else %}
+                    {% if g.search_form %}
+                        <form action="{{ url_for('main.search') }}" method="get" class="navbar-form">
+                            <div class="form-search">
+                                {{ g.search_form.q(size=20, class='form-control', placeholder=g.search_form.q.label.text) }}
+                            </div>
+                        </form>
+                    {% endif %}
                     <a href="{{ url_for('main.user', username=current_user.username) }}" class="profile"> Profile</a>
                     <a href="{{ url_for('auth.logout') }}" class="logout">Logout</a>
                 {% endif %}

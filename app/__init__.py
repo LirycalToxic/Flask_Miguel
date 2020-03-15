@@ -1,15 +1,15 @@
+import logging
+import os
 from logging.handlers import RotatingFileHandler, SMTPHandler
 
+from elasticsearch import Elasticsearch
 from flask import Flask, request, current_app
-
-from flask_mail import Mail
-from flask_sqlalchemy import SQLAlchemy
-from flask_migrate import Migrate
-from flask_login import LoginManager
-from flask_moment import Moment
 from flask_babel import Babel, lazy_gettext as _l
-import os
-import logging
+from flask_login import LoginManager
+from flask_mail import Mail
+from flask_migrate import Migrate
+from flask_moment import Moment
+from flask_sqlalchemy import SQLAlchemy
 
 db = SQLAlchemy()
 migrate = Migrate()
@@ -31,6 +31,7 @@ def create_app():
     mail.init_app(app)
     moment.init_app(app)
     babel.init_app(app)
+    app.elasticsearch =  Elasticsearch(app.config['ELASTICSEARCH_URL']) if app.config['ELASTICSEARCH_URL'] else None
 
     from app.errors import bp as errors_bp
 

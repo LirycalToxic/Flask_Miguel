@@ -1,7 +1,8 @@
 import json
+
 import requests
-from flask_babel import _
 from flask import current_app as app
+from flask_babel import _
 
 
 def translate(text, source_language, dest_language):

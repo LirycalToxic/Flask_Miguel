@@ -11,8 +11,9 @@ MAIL_USE_TLS = os.environ.get('MAIL_USE_TLS') or 1
 MAIL_USERNAME = os.environ.get('MAIL_USERNAME') or "xaccaope2@gmail.com"
 MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD') or "naruto12345654321"
 ADMINS = ['xaccaope2@gmail.com']
-POST_PER_PAGE = 3
+POST_PER_PAGE = 5
 MS_TRANSLATOR_KEY = '1018c4be87ad442eb5292625969f5ef6'
     # 'trnsl.1.1.20200304T213148Z.31e74c48a6aacecf.bac1520af57fc54a56f88938197108fd65dee1c7'
 
 LANGUAGES = ['en', 'es', 'ru']
+ELASTICSEARCH_URL = os.environ.get('ELASTICSEARCH_URL') or 'http://localhost:9200'

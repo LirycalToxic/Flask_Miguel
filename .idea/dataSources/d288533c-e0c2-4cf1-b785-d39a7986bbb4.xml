@@ -25,7 +25,6 @@
     <index id="12" parent="6" name="sqlite_autoindex_alembic_version_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>version_num</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="13" parent="6" name="alembic_version_pkc">
@@ -74,7 +73,6 @@
     </column>
     <index id="23" parent="8" name="ix_post_timestamp">
       <ColNames>timestamp</ColNames>
-      <ColumnCollations></ColumnCollations>
     </index>
     <key id="24" parent="8">
       <ColNames>id</ColNames>
@@ -134,12 +132,10 @@
     </column>
     <index id="37" parent="10" name="ix_user_username">
       <ColNames>username</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <index id="38" parent="10" name="ix_user_email">
       <ColNames>email</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="39" parent="10">

@@ -1,7 +1,10 @@
-from flask_wtf import FlaskForm
-from wtforms import StringField, PasswordField, BooleanField, SubmitField, TextAreaField
-from wtforms.validators import DataRequired, Email, Length,  ValidationError
+from flask import request
 from flask_babel import lazy_gettext as _l
+from flask_wtf import FlaskForm
+from wtforms import StringField, SubmitField, TextAreaField
+from wtforms.validators import DataRequired, Length, ValidationError
+
+from app.models import User
 
 
 class PostForm(FlaskForm):
@@ -25,3 +28,14 @@ class EditProfileForm(FlaskForm):
             user = User.query.filter_by(username=self.username.data).first()
             if user is not None:
                 raise ValidationError('Please use a different username.')
+
+
+class SearchForm(FlaskForm):
+    q = StringField(_l('Search'), validators=[DataRequired()])
+
+    def __init__(self, *args, **kwargs):
+        if 'formdata'not in kwargs:
+            kwargs['formdata'] = request.args
+        if 'csrf_enabled' not in kwargs:
+            kwargs['csrf_enabled'] = False
+        super(SearchForm, self).__init__(*args, **kwargs)
