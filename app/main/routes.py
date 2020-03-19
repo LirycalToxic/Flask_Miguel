@@ -122,8 +122,8 @@ def search():
         return redirect(url_for('main.explore'))
     page = request.args.get('page', 1, type=int)
     posts, total = Post.search(g.search_form.q.data, page, app.config['POST_PER_PAGE'])
-    next_url = url_for('main.search', q=g.search_form.q.data, page=page + 1)\
-    if total > page * app.config['POST_PER_PAGE'] else None
+    next_url = url_for('main.search', q=g.search_form.q.data, page=page + 1) \
+        if total > page * app.config['POST_PER_PAGE'] else None
     prev_url = url_for('main.search', q=g.search_form.q.data, page=page - 1) \
         if total > 1 else None
     return render_template('search.html', title=_('Search'), posts=posts, next_url=next_url, prev_url=prev_url)

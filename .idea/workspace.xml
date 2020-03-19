@@ -2,84 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78b358c3-81c5-4281-9c04-66d34a0ed4dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch-7.5.1.dist-info/AUTHORS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch-7.5.1.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch-7.5.1.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch-7.5.1.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch-7.5.1.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch-7.5.1.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch-7.5.1.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/cat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/ccr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/cluster.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/data_frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/deprecation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/enrich.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/ilm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/indices.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/ingest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/license.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/migration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/ml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/monitoring.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/nodes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/remote.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/rollup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/security.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/slm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/snapshot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/sql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/ssl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/tasks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/transform.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/watcher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/client/xpack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/connection/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/connection/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/connection/http_requests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/connection/http_urllib3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/connection/pooling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/connection_pool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/helpers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/helpers/actions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/helpers/errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/helpers/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/elasticsearch/transport.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d288533c-e0c2-4cf1-b785-d39a7986bbb4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d288533c-e0c2-4cf1-b785-d39a7986bbb4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/versions/06c04f0777f8_init.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/zpmerch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/auth/email.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/email.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/auth/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/auth/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/cli.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/errors/handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/errors/handlers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main/form.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/main/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/translate.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/translate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/migrations/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/2038cf20d836_.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/versions/2038cf20d836_.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/354f7e091cce_followers.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/versions/354f7e091cce_followers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/3b4a62895015_.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/versions/3b4a62895015_.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/3db8be13797d_.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/versions/3db8be13797d_.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/e738cdd3b7c9_.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/versions/e738cdd3b7c9_.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/ee95fa9e8bed_content.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/versions/ee95fa9e8bed_content.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/2038cf20d836_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/354f7e091cce_followers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/3b4a62895015_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/3db8be13797d_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/e738cdd3b7c9_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/ee95fa9e8bed_content.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_lib/Lib/site-packages/sqlalchemy/dialects/mysql/mysqldb.py" beforeDir="false" afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/sqlalchemy/dialects/mysql/mysqldb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +42,28 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="zpmerch: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="zpmerch: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="followers: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="app" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
@@ -112,13 +76,6 @@
         <item name="app" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="app" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="post: table" type="3d80ac25:SqliteImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -158,11 +115,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab1_set_matan" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SQLALCHEMY" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -170,16 +128,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xacca\PycharmProjects\Migel\app" />
+      <recent name="C:\Users\xacca\PycharmProjects\Migel\app\tamplates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\xacca\PycharmProjects\Migel\app" />
       <recent name="C:\Users\xacca\PycharmProjects\Migel\app\main" />
       <recent name="C:\Users\xacca\PycharmProjects\Migel\app\templates\auth" />
       <recent name="C:\Users\xacca\PycharmProjects\Migel\app\auth" />
       <recent name="C:\Users\xacca\PycharmProjects\Migel\app\static\js" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\xacca\PycharmProjects\Migel\app" />
-      <recent name="C:\Users\xacca\PycharmProjects\Migel\app\tamplates" />
     </key>
   </component>
   <component name="RunManager" selected="Flask server.Migel">
@@ -252,10 +210,13 @@
     <configuration name="Migel" type="Python.FlaskServer">
       <option name="flaskDebug" value="true" />
       <module name="Miguel" />
-      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="target" value="$PROJECT_DIR$/zpmerch.py" />
       <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="ELASTICSEARCH_URL" value="http://167.99.206.94:9200" />
+      </envs>
       <option name="SDK_HOME" value="C:\Users\xacca\PycharmProjects\Migel\new_lib\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -372,6 +333,14 @@
       <workItem from="1583948366956" duration="2307000" />
       <workItem from="1584130267751" duration="3502000" />
       <workItem from="1584201548467" duration="648000" />
+      <workItem from="1584308785390" duration="46000" />
+      <workItem from="1584393465441" duration="3685000" />
+      <workItem from="1584453078030" duration="4380000" />
+      <workItem from="1584547337533" duration="3734000" />
+      <workItem from="1584556357776" duration="5349000" />
+      <workItem from="1584627439684" duration="4088000" />
+      <workItem from="1584632319536" duration="2749000" />
+      <workItem from="1584635592207" duration="14434000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 13 Babel + Cli(doesnt work)">
       <created>1582577236829</created>
@@ -419,10 +388,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Path_mapping/0.0.1920.1040@0.0.1920.1040" timestamp="1583866571902" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583949098204">
+    <state x="645" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584658577452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583949098204" />
+    <state x="645" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584658577452" />
     <state x="723" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583850317907">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -435,50 +404,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="694" y="281" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582575618679" />
-    <state x="345" y="234" key="FileChooserDialogImpl" timestamp="1583949312310">
+    <state x="345" y="234" key="FileChooserDialogImpl" timestamp="1584454193303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="345" y="234" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583949312310" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1583850015081">
+    <state x="345" y="234" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584454193303" />
+    <state width="1877" height="416" key="GridCell.Tab.0.bottom" timestamp="1584658436032">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583850015081" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1583850015081">
+    <state width="1877" height="416" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584658436032" />
+    <state width="1877" height="416" key="GridCell.Tab.0.center" timestamp="1584658436032">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583850015081" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1583850015081">
+    <state width="1877" height="416" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584658436032" />
+    <state width="1877" height="416" key="GridCell.Tab.0.left" timestamp="1584658436032">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583850015081" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1583850015081">
+    <state width="1877" height="416" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584658436032" />
+    <state width="1877" height="416" key="GridCell.Tab.0.right" timestamp="1584658436032">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583850015081" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1582397913089">
+    <state width="1877" height="416" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584658436032" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1584631562012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582397913089" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1582397913088">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584631562012" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1584631562012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582397913088" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1582397913088">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584631562012" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1584631562012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582397913088" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1582397913089">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584631562012" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1584631562012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582397913089" />
-    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1580587424744">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584631562012" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1584650048998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1580587424744" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1583850440140">
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1584650048998" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1584658391363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583850440140" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584658391363" />
     <state x="857" y="402" width="326" height="240" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1582052105251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -487,10 +456,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="161" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581108140259" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1584201586353">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1584635592356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584201586353" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584635592356" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583354904742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -499,9 +468,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Miguel$context.coverage" NAME="context Coverage Results" MODIFIED="1580755558268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/Migel$Migel.coverage" NAME="Migel Coverage Results" MODIFIED="1580567917671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Miguel$test.coverage" NAME="test Coverage Results" MODIFIED="1583610997127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Miguel$test.coverage" NAME="test Coverage Results" MODIFIED="1584656541159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Migel$test.coverage" NAME="test Coverage Results" MODIFIED="1580571908569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Miguel$Migel.coverage" NAME="Migel Coverage Results" MODIFIED="1583849193847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Miguel$Migel.coverage" NAME="Migel Coverage Results" MODIFIED="1584658408755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Miguel$Unittests_for_tests_UserModelCase_test_follow_posts.coverage" NAME="Unittests for tests.UserModelCase.test_follow_posts Coverage Results" MODIFIED="1582049353982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/Miguel$models.coverage" NAME="models Coverage Results" MODIFIED="1583695709580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>

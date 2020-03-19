@@ -31,7 +31,7 @@ def create_app():
     mail.init_app(app)
     moment.init_app(app)
     babel.init_app(app)
-    app.elasticsearch =  Elasticsearch(app.config['ELASTICSEARCH_URL']) if app.config['ELASTICSEARCH_URL'] else None
+    app.elasticsearch = Elasticsearch(app.config['ELASTICSEARCH_URL']) if app.config['ELASTICSEARCH_URL'] else None
 
     from app.errors import bp as errors_bp
 
@@ -71,7 +71,6 @@ def create_app():
 
         app.logger.setLevel(logging.INFO)
         app.logger.info('Miguel startup')
-
     return app
 
 

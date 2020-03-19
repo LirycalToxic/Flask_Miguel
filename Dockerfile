@@ -10,10 +10,11 @@ RUN venv/bin/pip install gunicorn pymysql
 
 COPY app app
 COPY migrations migrations
-COPY app.py config.py boot.sh ./
-RUN chmod +x boot.sh
+COPY zpmerch.py config.py boot.sh ./
+RUN chmod 755 boot.sh
 
-ENV FLASK_APP app.py
+ENV FLASK_APP zpmerch.py
+
 
 EXPOSE 5000
 ENTRYPOINT ["./boot.sh"]
