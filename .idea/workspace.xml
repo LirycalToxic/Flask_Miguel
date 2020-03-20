@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78b358c3-81c5-4281-9c04-66d34a0ed4dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/migrations/versions/06c04f0777f8_init.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/zpmerch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/2038cf20d836_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/354f7e091cce_followers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/3b4a62895015_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/3db8be13797d_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/e738cdd3b7c9_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/ee95fa9e8bed_content.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_lib/Lib/site-packages/sqlalchemy/dialects/mysql/mysqldb.py" beforeDir="false" afterPath="$PROJECT_DIR$/new_lib/Lib/site-packages/sqlalchemy/dialects/mysql/mysqldb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -341,6 +322,7 @@
       <workItem from="1584627439684" duration="4088000" />
       <workItem from="1584632319536" duration="2749000" />
       <workItem from="1584635592207" duration="14434000" />
+      <workItem from="1584710690309" duration="2251000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 13 Babel + Cli(doesnt work)">
       <created>1582577236829</created>
@@ -388,10 +370,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Path_mapping/0.0.1920.1040@0.0.1920.1040" timestamp="1583866571902" />
-    <state x="645" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584658577452">
+    <state x="645" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584731754864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="645" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584658577452" />
+    <state x="645" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584731754864" />
     <state x="723" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583850317907">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -444,10 +426,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1584650048998" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1584658391363">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1584731845134">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584658391363" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584731845134" />
     <state x="857" y="402" width="326" height="240" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1582052105251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -456,10 +438,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="161" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581108140259" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1584635592356">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1584711184138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584635592356" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584711184138" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583354904742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
